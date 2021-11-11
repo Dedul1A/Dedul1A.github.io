@@ -1,0 +1,125 @@
+.wrapper {
+	min-height: 100vh;
+	background-color: #67007c;
+}
+.content {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 30px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title {
+	color: #eec10f;
+	font-size: 80px;
+	letter-spacing: 20px;
+	margin-left: 80px;
+}
+.form {
+	margin-top: 50px;
+}
+.form__name {
+	color: #c0c0c0;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.form input {
+	background-color: #5d5175;
+	margin-top: 5px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	display: block;
+	width: 590px;
+	padding: 10px 5px;
+	text-align: center;
+	outline: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.form button {
+	margin-top: 60px;
+	font-size: 25px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: block;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background-color: #eec10f;
+}
+.message__form {
+	text-transform: uppercase;
+	color: #c0c0c0;
+	font-size: 20px;
+	text-align: center;
+	margin: 50px 0 15px 0;
+}
+.message__form-text {
+	width: 590px;
+	height: 100px;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 24px;
+	resize: none;
+	font-size: 40px;
+	background-color: #5d5175;
+	color: #fff;
+}
+.btn__group {
+	display: flex;
+}
+.btn_gen {
+	width: 270px;
+	height: 60px;
+}
+.btn_gen:hover {
+	background-color: #ff9b49;
+}
+.btn_reset {
+	width: 270px;
+	height: 60px;
+	margin-left: 50px;
+}
+.btn_reset:hover {
+	background-color: #ff9b49;
+}
+@media (max-width: 1060px) {
+	.title {
+		letter-spacing: 10px;
+	}
+}
+@media (max-width: 910px) {
+	.title {
+		margin-left: 20px;
+	}
+}
+@media (max-width: 850px) {
+	.title {
+		text-align: center;
+	}
+}
+@media (max-width: 610px) {
+	.form input,
+	.message__form-text {
+		margin: 5px 70px;
+		width: 430px;
+	}
+	.btn_gen,
+	.btn_reset {
+		width: 190px;
+	}
+	.btn__group {
+		margin-left: 70px;
+	}
+}
+@media (max-width: 570px) {
+}
